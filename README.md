@@ -1,4 +1,3 @@
-node-liquidplanner
-==================
+# node-liquidplanner
 
-NodeJS adapter for LiquidPlanner API
+NodeJS adapter for [LiquidPlanner](http://liquidplanner.com) API
