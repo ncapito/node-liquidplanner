@@ -11,7 +11,7 @@ chai.use(require('chai-as-promised'));
 
 global.fixture = {
   beforeEach: function beforeEach() {
-    global.sandbox = sinon.sandbox.create();
+    global.sandbox = global.sinon.sandbox.create();
   },
   afterEach: function afterEach() {
     global.sandbox.restore();
